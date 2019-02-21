@@ -12,6 +12,7 @@ header {
     padding-bottom: 10px;
     height: 50px;
 }
+
 nav {
     background-color: #ebebeb;
     text-align: center;
@@ -19,22 +20,23 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+
     
 }
-#section {
+section {
     background-color: #ebebeb;  
     width: 495px;
     float: left;
+    position: relative;
 
 }
-#article {
+article {
     color: #ebebeb;
     text-align: center;
     background: #777;
     width: 90%;
     height: 90px;
+    position: absolute;
 }
 h3 {
     color: #777;
