@@ -32,6 +32,7 @@ section {
     clear: both;
     margin-top: 15px;
     height: 288px;
+    color: #777;
 
 }
 article {
@@ -43,14 +44,22 @@ article {
     margin-left: 43px;
 }
 
-h3 {
+h4 {
     color: #777;
     background-color: #ebebeb; 
+    width: 80%;
+    margin-left: 48px;
+    height: 30px;
+
 }
 p {
     color: #777;
     background-color: #ebebeb;
     margin-top: -20px;
+    margin-left: 48px;
+    width: 80%;
+    height: 30px;
+
 }
 aside {
     background: #ebebeb;
@@ -59,6 +68,7 @@ aside {
     float: right;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #777;
 }
 
 footer {
@@ -67,4 +77,5 @@ footer {
     background: #ebebeb;
     height: 60px;   
     margin-top: 15px;
+    color: #777;
 }
