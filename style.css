@@ -10,6 +10,7 @@ header {
     color: #777;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    height: 50px;
 }
 nav {
     background-color: #ebebeb;
@@ -17,29 +18,46 @@ nav {
     color: #777;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 #section {
     background-color: #ebebeb;  
     width: 495px;
+    float: left;
 
 }
-article {
+#article {
     color: #ebebeb;
+    text-align: center;
     background: #777;
+    width: 90%;
+    height: 90px;
 }
 h3 {
     color: #777;
+    text-align: center;
     background-color: #ebebeb;
 }
 p {
     color: #777;
+    text-align: center;
     background-color: #ebebeb;
+    margin-top: -20px;
 }
 aside {
     background: #ebebeb;
+    text-align: center;
     width: 495px;
+    height: 195px;
+    float: left;
 }
 
 footer {
+    clear: both;
+    overflow: auto;
     background: #ebebeb;
+    text-align: center;
 }
